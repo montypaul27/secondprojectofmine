@@ -6,9 +6,14 @@ public class Practice {
 	{
 	int x=10;
 	int y=40;
-	int z=x+y;
-	System.out.println(z);
+	
+	System.out.println(addition(x,y));
 
+	}
+	
+	public static int addition(int x,int y)
+	{
+		return(x+y);
 	}
 
 }
